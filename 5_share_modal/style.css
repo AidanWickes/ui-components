@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #636364;
+  color: #0b0d0d;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #ebebeb;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding-bottom: 50px;
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
+a {
+  color: #ee5b06;
+  text-decoration: none;
+}
+
+.close {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 500px;
+  margin: auto;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 3px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.btn-close {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #636364;
+  font-size: 30px;
+  margin: 0;
+  padding: 25px;
+  width: 25px;
+  height: 25px;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+  border: 0;
+}
+
+.btn-twitter {
+  background-color: #1da1f2;
+  border: 0;
+}
+
+.btn-reddit {
+  background-color: #0b0d0d;
+  border: 0;
+}
+
+.btn i {
+  margin-right: 5px;
+  width: 20px;
+}
