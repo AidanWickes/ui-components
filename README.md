@@ -8,3 +8,4 @@
 2. [Login](https://uidesigndaily.com/posts/sketch-login-log-in-authentication-features-day-1022)
 3. [Ads Manager](https://uidesigndaily.com/posts/sketch-ads-manager-table-list-day-1049)
 4. [Stats Card](https://uidesigndaily.com/posts/sketch-stats-card-statistics-cards-day-1119)
+5. [Share Modal](https://uidesigndaily.com/posts/sketch-share-modal-pop-up-day-1118)
